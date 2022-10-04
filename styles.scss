@@ -1,0 +1,21 @@
+// For one line
+div.wrapper{
+  width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+This is [an example](https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_text-overflow/ "Text-Overflow") inline link.
+
+
+// For multi line
+div.wrapper {
+    display: -webkit-box;
+    max-width: 200px;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+This is [an example](https://stackoverflow.com/questions/33058004/applying-an-ellipsis-to-multiline-text/ "Text-Overflow") inline link.
