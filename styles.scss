@@ -19,3 +19,7 @@ div.wrapper {
 }
 
 https://stackoverflow.com/questions/33058004/applying-an-ellipsis-to-multiline-text/
+
+// Incase your project has install StyleLint, it will automatic repalace "display: -webkit-box" turn to "display: block"
+// Put this comment upon that line, and you'll be fine with Stylelint
+/* stylelint-disable-line */
